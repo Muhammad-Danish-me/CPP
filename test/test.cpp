@@ -32,7 +32,6 @@
 //     return 0;
 // }
 
-
 // #include <iostream>
 // using namespace std;
 
@@ -80,8 +79,6 @@
 //     return 0;
 // }
 
-
-
 // Problem 1: Add Two Numbers
 
 // #include <iostream>
@@ -109,13 +106,13 @@
 //     cout << "Average: " << total / 3;
 // }
 
-
 // Problem 3: Calculate the Area of a Rectangle
 
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
         int lenght = 6;
         int width = 4;
 
