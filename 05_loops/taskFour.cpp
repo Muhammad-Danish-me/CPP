@@ -10,10 +10,10 @@ int main()
         cout << "Do you want more tea (type 'stop' to exit)? ";
         getline(cin, response);
 
-        if (response == "stop")
+        if (response == "stop" || response == "Stop" || response == "STOP")
         {
             // exit the loop
-            cout << "Thanks For ordering";
+            cout << "Thanks For ordering!";
             break;
         }
 
